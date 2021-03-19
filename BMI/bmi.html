@@ -1,0 +1,52 @@
+
+
+<!DOCTYPE html>
+<html lang="BMI Kalkulačka">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BMI Kalkulačka</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="style.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <form id="form" name="bmiCalc">
+            <div class="header">BMI Kalkulačka</div>
+            <div class="sub">Zjisti své BMI pomoci své váhy a výšky</div>
+                <div class="input">
+                    <input for="váha" class="text" placeholder="Tvá váha" type="text" name="vaha">
+                </div>
+                <div class="input">
+                    <input for="výška" class="text" placeholder="Tvá výška (např. 1.80)" type="text" name="vyska">
+                </div>
+                <div>
+                    <input class="button" type="button" value="Vypočti BMI" onClick="vypocetBMI()">
+                </div>
+                <div class="input">
+                    <input for="bmi" class="text" placeholder="Tvé BMI" type="text" name="bmi">
+                </div>
+                <div class="input">
+                    <input for="bmi_vysledek" placeholder="Výsledek" class="text" type="text" name="vysledek">
+                </div>
+                <div>
+                    <input class="button" type="reset" value="Znova">
+                </div>
+            </form>
+        <!-- jQuery -->
+        <script src="bmi.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+    <hr>
+    <h1>Jakub Komenda, SŠPU Opava</h1>
+</html>
+

@@ -1,0 +1,42 @@
+.header{ 
+    width: 240px;
+    background-color: blue;
+    font-size: 25px;
+    color: white;
+    padding: 10px 10px 0px 10px;  }
+
+.sub{  
+    width: 240px;
+    background-color:blue;
+    font-size: 16px;
+    color: white;
+    padding: 5px 10px 10px 10px;  }
+
+#form{ 
+    width: 260px;
+    border-radius: 3px;
+    height: 365px;
+    margin: 0 auto;
+    border: 3px solid #333333; }
+
+.input{ 
+    width: 100px;
+    margin: 20px; }
+
+.button{ 
+    width: 150px;
+    border: 2px solid #00BDFF;
+    margin-left: 55px;
+    background-color: transparent;
+    transition: border .5s, background-color .5s, color .5s; }
+
+.text{ 
+    font-size: 17px;
+    transition: border 1s, background-color 1s, color .5s; }
+
+h1{
+    text-align: center;
+    font-size: small;
+    color: #333333;
+}    
+
